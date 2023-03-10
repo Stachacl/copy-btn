@@ -9,6 +9,19 @@
 // @grant        none
 // ==/UserScript==
 
+let styleSheet = `
+.copyBtnStyle {
+color: #7dc7b0;
+background-color: white;
+margin: 5px;
+
+}`;
+
+let s = document.createElement("style");
+s.type = "text/css";
+s.innerHTML = styleSheet;
+(document.head || document.documentElement).appendChild(s);
+
  // Wait for window to load before executing JS function
 window.addEventListener("load", function() {
    'use strict';
@@ -26,7 +39,8 @@ window.addEventListener("load", function() {
     function addCopyBtn(ele) {
         if (!ele.querySelector("button")) {
         let btn = document.createElement("button");
-        btn.innerHTML = "Copy text below: ";
+        btn.innerHTML = " Copy text below:  ";
+        btn.className = "copyBtnStyle";
         btn.onclick = () => {
             copy(ele.lastChild);
         }
