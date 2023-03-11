@@ -20,6 +20,7 @@ The extension works by looping through all paragraphs on the page and adding a "
 ## Working on improvements
 - Hide the button if not needed
 - Select all the paragraphs in the response message
+- Notification "Copied to clipboard!"
 - Your suggestions...
 
 
