@@ -4,8 +4,9 @@ This extension adds a "Copy text below" button to all ChatGPT responces. When th
 
 ## Before and After the extention comparison: 
 
+<img src="https://raw.githubusercontent.com/Stachacl/copy-btn/main/before-after.png" >
 
-### After: 
+### Look with the extention: 
 
 <img src="https://raw.githubusercontent.com/Stachacl/copy-btn/main/After-%20Screen%20Shot%20.png" >
 
