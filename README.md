@@ -17,7 +17,9 @@ To install the extension you need to follow these steps:
 (description in progress)
 
 ## How it Works
-The extension is built on top of Tempermonkey extention and it works by looping through all paragraphs on the page and adding a "Copy" button to each one. When the button is clicked, the extension creates a temporary <textarea> element, sets its value to the text content of the paragraph, selects the text in the <textarea>, and executes the "copy" command to copy the text to the clipboard. Finally, the temporary <textarea> element is removed from the page.
+- The extension is built on top of Tempermonkey extention and it works by looping through all paragraphs on the page and adding a "Copy" button to each one. When the button is clicked, the extension creates a temporary <textarea> element, sets its value to the text content of the paragraph, selects the text in the <textarea>, and executes the "copy" command to copy the text to the clipboard. Finally, the temporary <textarea> element is removed from the page.
+- The function checks if the element doesn't already have a button element, and if not, creates a new button.
+- Interval function ensures that the copy button is added to all ChatGPT responce messages in the document, even if new messages are added dynamically.
 
 ## Working on improvements
 - Hide the button if not needed
