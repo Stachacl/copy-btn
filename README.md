@@ -25,4 +25,4 @@ The extension works by looping through all paragraphs on the page and adding a "
 
 
 ## Contributing
-If you'd like to contribute to this extension, please fork the repository and submit a pull request.
+If you would like to contribute to this project, please fork the repository and submit a pull request.
