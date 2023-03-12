@@ -1,6 +1,6 @@
 # Copy Button Extension
 
-This extension adds a "Copy text below" button to all ChatGPT responces. When the button is clicked, the text content of the ChatGPT respond message is copied to the clipboard.
+This extension adds a "Copy text below" button to all ChatGPT responses. When the button is clicked, the text content of the ChatGPT respond message is copied to the clipboard.
 
 ## Before and After the extention comparison: 
 
